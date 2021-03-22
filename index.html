@@ -6,8 +6,10 @@
     <title>Malav's Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Patua+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js"></script>
+    <script src="jquery.js"></script>
+
   </head>
   <body>
     <main>
@@ -19,13 +21,13 @@
         <h2>Junior at Rutgers University</h2>
 
         <p>Welocme to my portfolio site. Here I have placed all the work that I have been doing over the past few years in the field of Computer Science. I am interested in software development and back-end development. Most of my projects are based on backend work but I have also started to work on front-end in Android and web page designing. </p>
-        <p>I am also involoved in extra curricular activites like music and badminton. You can subscribe my channel on  <a class="yt-btn" href="https://www.youtube.com/channel/UCoA7gOQDb6LaUWPfyjcQsuw" target="_blank"> YouTube</a>.</p>
+        <p>I am also involoved in extra curricular activites like music and badminton. You can checkout my channel on  <a class="yt-btn" href="https://www.youtube.com/channel/UCoA7gOQDb6LaUWPfyjcQsuw" target="_blank"> YouTube</a>.</p>
         </div>
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section class="Projects">
-        <div class="content-wrap">
+      <section id="container" class="Projects">
+        <div  id="start" class="content-wrap">
 
 
         <h2>Featured Projects</h2>
@@ -33,7 +35,7 @@
 
         <!-- Copy the whole <section> block to add more projects. -->
         <section class="project-item">
-          <img src="images/placeholder images/Cache-1.png" alt="A cache memory in hardware">
+          <img  src="images/placeholder images/Cache-1.png" alt="A cache memory in hardware">
           <h3>Cache Simulator</h3>
           <p>This project shows how the cache memory works in software. It uses FIFO and prefetching to increase the efficiency of cache.
           The project is done in C. </p>
@@ -48,7 +50,7 @@
         </section>
 
         <section class="project-item">
-          <img src="images/placeholder images/it.jpg" alt="Internet">
+          <img class="hideme" src="images/placeholder images/it.jpg" alt="Internet">
           <h3>DNS Lookup Service</h3>
           <p>The project implements the DNS service in a simpler way using Python. Given a particular host name, the client contacts the server and the server uses recirsive query to chekc if the host name is valid or not. </p>
           <button class="btn" onclick="window.open('https://github.com/malav-spec/Simple-DNS-Lookup-Service','_blank');"><span>View project</span></button>
