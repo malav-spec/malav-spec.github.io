@@ -1,8 +1,8 @@
-@media only screen and
+/* @media only screen and
 (min-device-width : screen px) and
 (max-device-width : screen px) {
     #id{style}
-}
+} */
 
 html {
   box-sizing: border-box;
@@ -104,10 +104,10 @@ header{
   padding: 25px 0;
 }
 
-.project-item img{
+/* .project-item img{
   margin-right: 20px;
   float: left;
-}
+} */
 
 .project-item h3{
   margin-top: 0;
@@ -120,6 +120,10 @@ header{
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
+}
+
+.Education p{
+  width: 60%;
 }
 
 
@@ -168,7 +172,27 @@ footer{
   justify-content: space-between;
 }
 
+@media screen and (min-width: 750 px){
+  header, footer{
+    text-align: center;
+  }
 
+  .project-item img{
+    margin-right: 20px;
+    float: left;
+  }
+
+  .contact{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 749 px){
+  h1{
+    font-size: 75px;
+  }
+}
 
 
 // n is number of stars required
