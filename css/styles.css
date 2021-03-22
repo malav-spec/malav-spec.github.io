@@ -172,7 +172,7 @@ footer{
   justify-content: space-between;
 }
 
-@media screen and (min-width: 750 px){
+@media screen and (min-width: 601 px){
   header, footer{
     text-align: center;
   }
@@ -195,7 +195,7 @@ footer{
   }
 }
 
-@media screen and (max-width: 749 px){
+@media screen and (max-width: 600 px){
   h1{
     font-size: 75px;
   }
