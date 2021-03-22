@@ -186,18 +186,20 @@ footer{
     display: flex;
     justify-content: center;
   }
-    .Education{
-    background:  #cfe0e8;
-    background-image: url(../images/bi1.jpg);
-    background-size: cover;
-    background-position: top right;
-    padding-bottom: 100px;
-  }
+
 }
 
 @media screen and (max-width: 599 px){
   h1{
     font-size: 75px;
+  }
+  .Education{
+/*     background:  #cfe0e8; */
+    background: red;
+    background-image: url(../images/bi1.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
   }
 }
 
