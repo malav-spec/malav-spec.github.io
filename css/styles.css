@@ -1,8 +1,9 @@
-/* @media only screen and
-(min-device-width : screen px) and
-(max-device-width : screen px) {
-    #id{style}
-} */
+
+ @media (min-width: 1100px) {
+   .Education {
+     background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
+   }
+ }
 
 html {
   box-sizing: border-box;
